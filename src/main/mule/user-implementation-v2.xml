@@ -20,6 +20,7 @@ ns ns0 http://www.craftsoftware.com/users
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="4ae6da54-788a-450d-a23d-203df6c36283" message="payload ======= #[payload]"/>
 		<wsc:consume operation="GetAllUsers" doc:name="Consume" doc:id="6f2db3a9-7e7a-4c9a-930f-14e02a1ef878" config-ref="Web_Service_Consumer_Config"/>
 		<ee:transform doc:name="Transform Message" doc:id="13b56adc-8b82-41da-9928-b12865899208" >
 			<ee:message >
