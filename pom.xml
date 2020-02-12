@@ -34,7 +34,7 @@
 				<password>@@Gaga356@@</password>
 				<muleVersion>4.2.2</muleVersion>
 				<region>US East(Ohio)</region>
-				<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
+				<uri>https://anypoint.mulesoft.com</uri>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
