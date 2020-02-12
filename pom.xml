@@ -25,7 +25,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				<CloudHubDeployment>
+				<cloudHubDeployment>
 				<username>max356</username>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
@@ -33,7 +33,9 @@
 				<applicationName>userManagement-service</applicationName>
 				<password>@@Gaga356@@</password>
 				<muleVersion>4.2.2</muleVersion>
-				</CloudHubDeployment>
+				<region>US East(Ohio)</region>
+				<anypoint.uri>https://anypoint.mulesoft.com</anypoint.uri>
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
