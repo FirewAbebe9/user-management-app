@@ -26,15 +26,15 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
+				<uri>https://anypoint.mulesoft.com</uri>
+				<muleVersion>4.2.2</muleVersion>
 				<username>max356</username>
+				<password>@@Gaga356@@</password>
+				<applicationName>userManagement-service</applicationName>
 				<environment>Sandbox</environment>
 				<workers>1</workers>
 				<workerType>Micro</workerType>
-				<applicationName>userManagement-service</applicationName>
-				<password>@@Gaga356@@</password>
-				<muleVersion>4.2.2</muleVersion>
-				<region>us-east-1</region>
-				<uri>https://anypoint.mulesoft.com</uri>
+				<region>us-east-2</region>
 				</cloudHubDeployment>
 				</configuration>
 			</plugin>
