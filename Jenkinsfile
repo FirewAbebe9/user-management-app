@@ -9,19 +9,19 @@ pipeline {
     WORKER = "Micro"
   }
   stages {
-    stage('Build') {
+    stage('Build Application') {
       steps {
-            bat 'mvn -B -U -e -V clean -DskipTests package'
+            bat 'mvn clean install'
       }
     }
 
-    stage('Test') {
+    stage('Deploy Application To MuleSoft CloudHubt') {
       steps {
-          bat "mvn test"
+          bat 'mvn package deploy -DmuleDeploy'
       }
     }
 
-     stage('Deploy Development') {
+     stage('Perform Regression Testing') {
       environment {
         ENVIRONMENT = 'Sandbox'
         APP_NAME = 'Sandbox-user-management-api-max'
