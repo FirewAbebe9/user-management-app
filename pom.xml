@@ -28,22 +28,22 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<!-- <uri>https://anypoint.mulesoft.com</uri> <muleVersion>4.2.2</muleVersion> 
+						<uri>https://anypoint.mulesoft.com</uri> <muleVersion>4.2.2</muleVersion> 
 							<username>max356</username> <password>@@Gaga356@@</password> <applicationName>userManagement-service</applicationName> 
 							<environment>Sandbox</environment> <workers>1</workers> <workerType>Micro</workerType> 
-							<region>us-east-2</region> -->
-						<cloudHubDeployment>
-							<uri>https://anypoint.mulesoft.com</uri>
+							<region>us-east-2</region>
+						
+							<!-- <uri>https://anypoint.mulesoft.com</uri>
 							<muleVersion>${mule.version}</muleVersion>
-							<!-- Deploy User Parameter -->
+							Deploy User Parameter
 							<username>${anypoint.username}</username>
 							<password>${anypoint.password}</password>
-							<!-- Environment Parameter -->
+							Environment Parameter
 							<environment>${cloudhub.environment}</environment>
 							<applicationName>${cloudhub.app}</applicationName>
 							<businessGroup>${cloudhub.bg}</businessGroup>
-							<workerType>${cloudhub.worker}</workerType>
-						</cloudHubDeployment>
+							<workerType>${cloudhub.worker}</workerType> -->
+						
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
